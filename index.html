@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<!-- This file is modified from https://raw.githubusercontent.com/rstudio/shiny-server/cf0bf138a0ea38ba803ad96a6fef10ccd65f4ff9/samples/welcome.html,
+which is at /opt/shiny-server/samples/welcome.html by default in a shiny server. -->
+
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <head>
+    <title>Welcome to Ethan Brockmann's Shiny Server!</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <div id="titleBar">
+      <div id="container">
+        <h1>Welcome to Shiny Server!</h1>
+      </div>
+    </div>
+    <div id="outer-content">
+      <div id="intro">
+        <p>If you're seeing this page, that means Shiny Server is installed and running. <strong>Further, it is running from your custom mountpoint!</strong> </p>
+      </div>
+    </div>
+    <iframe src="/01_hello_custom/"
+            title="Shiny application displaying a histogram of Old Faithful eruption times">
+    </iframe>
+  </body>
+</html>
