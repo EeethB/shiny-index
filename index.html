@@ -7,14 +7,14 @@ which is at /opt/shiny-server/samples/welcome.html by default in a shiny server.
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <head>
-    <title>Welcome to Ethan Brockmann's Shiny Server!</title>
+    <title>Shiny Server</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   
   <body>
     <div id="titleBar">
       <div id="container">
-        <h1>Welcome to Shiny Server!</h1>
+        <h1>Welcome to Ethan Brockmann's Shiny Server!</h1>
       </div>
     </div>
     <div id="outer-content">
@@ -22,8 +22,10 @@ which is at /opt/shiny-server/samples/welcome.html by default in a shiny server.
         <p>If you're seeing this page, that means Shiny Server is installed and running. <strong>Further, it is running from your custom mountpoint!</strong> </p>
       </div>
     </div>
-    <iframe src="/01_hello_custom/" id="shiny"
-            title="Shiny application displaying a histogram of Old Faithful eruption times">
-    </iframe>
+    <div id="shiny">
+      <iframe src="/01_hello_custom/"
+              title="Shiny application displaying a histogram of Old Faithful eruption times">
+      </iframe>
+    </div>
   </body>
 </html>
