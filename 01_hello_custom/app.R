@@ -4,7 +4,7 @@ library(shiny)
 ui <- fluidPage(
 
   # App title ----
-  titlePanel("Hello Shiny!"),
+  titlePanel("Old Faithful eruption times"),
 
   # Sidebar layout with input and output definitions ----
   sidebarLayout(
